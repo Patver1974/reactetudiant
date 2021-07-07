@@ -17,6 +17,7 @@ p=> <TableEtudiantItem key={p.id} {...p}/>
                         <th>Option</th>
                         <th>Sexe</th>
                         <th>Resultat</th>
+                        <th>Grade</th>
                     </tr>
                 </thead>
                 <tbody>

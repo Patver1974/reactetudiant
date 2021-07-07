@@ -3,5 +3,56 @@
     }
 
 .resultalcouleurpos {
-    color:yellowgreen;
-    }
+    color:rgb(205, 50, 166);
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+  }
+    .apparencerouge:hover {
+        background-size:150% 150%; /* reduce the size to see the gadient effect*/
+        display: inline-block;
+        padding: 0 25px;
+        line-height: 42px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        background-image: radial-gradient(circle,red 0%, #0088b5 100%);
+        background-position:center;
+        background-size:600% 600%; /*a big size to see only the red*/
+        color: white;
+        text-decoration: none;
+        
+        transition: all 0.3s ease-in-out;
+      }
+      .apparenceverte:hover {
+        background-size:150% 150%; /* reduce the size to see the gadient effect*/
+        display: inline-block;
+        padding: 0 25px;
+        line-height: 42px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        background-image: radial-gradient(circle,rgb(35, 235, 78) 0%, #0088b5 100%);
+        background-position:center;
+        background-size:600% 600%; /*a big size to see only the red*/
+        color: white;
+        text-decoration: none;
+        
+        transition: all 0.3s ease-in-out;
+      }    .apparenceorange:hover {
+        background-size:150% 150%; /* reduce the size to see the gadient effect*/
+        display: inline-block;
+        padding: 0 25px;
+        line-height: 42px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        background-image: radial-gradient(circle,rgb(240, 148, 28) 0%, #0088b5 100%);
+        background-position:center;
+        background-size:600% 600%; /*a big size to see only the red*/
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+        
+        transition: all 0.3s ease-in-out;
+      }
