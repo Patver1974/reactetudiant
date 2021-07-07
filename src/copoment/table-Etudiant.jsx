@@ -3,7 +3,7 @@ import TableEtudiantItem from './table-Etudiant-Item';
 
 const TableEtudiant = (props) => {
 
-    const etudantJSX = props.products.map(
+    const etudiantJSX = props.etudiant.map(
 p=> <TableEtudiantItem key={p.id} {...p}/>
     );
     return (
@@ -20,15 +20,15 @@ p=> <TableEtudiantItem key={p.id} {...p}/>
                     </tr>
                 </thead>
                 <tbody>
-                    {etudantJSX}						
+                    {etudiantJSX}						
                 </tbody>
             </table>
         </>												
     )
 }
 
-ProductTable.propTypes = {								
-    products: PropTypes.array
+TableEtudiant.propTypes = {								
+    etudiant: PropTypes.array
 }
 
 export default TableEtudiant;

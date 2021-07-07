@@ -1,6 +1,7 @@
 
 import './App.css';
 import {nanoid} from 'nanoid';
+import TableEtudiant from './copoment/table-Etudiant';
 
 function App() {
   const etudiant = [
